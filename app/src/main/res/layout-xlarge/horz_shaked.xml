@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/select"
+    android:layout_marginTop="0dp">
+
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/servicesh"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/getspinner"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:text="@string/select_app_button"
+        android:textSize="40sp"
+        android:id="@+id/selectApph"
+        android:layout_below="@+id/servicesh"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/get"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewh"
+        android:layout_below="@+id/servicesh"
+        android:layout_toRightOf="@+id/selectApph"
+        android:layout_toEndOf="@+id/selectApph"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="#66FFFF"
+        android:layout_below="@+id/selectApph"
+        android:layout_marginTop="16dp"
+        android:id="@+id/view" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/horshake"
+        android:layout_below="@+id/textviewch"
+        android:layout_toStartOf="@+id/checkBoxvh"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/sensor_senstivity"
+        android:textStyle="bold"
+        android:id="@+id/titles_sensor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/view"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:onClick="onClick"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/sensor_sensitvityd"
+        android:id="@+id/dess_sensor"
+        android:textSize="35dp"
+        android:textColor="#FFCC00"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_below="@+id/titles_sensor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="#66FFFF"
+        android:id="@+id/view1"
+        android:layout_below="@+id/dess_sensor"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:button="@xml/custom_check_box"
+        android:id="@+id/checkBoxsch"
+        android:checked="false"
+        android:layout_below="@+id/view1"
+        android:layout_alignRight="@+id/view1"
+        android:layout_alignEnd="@+id/view1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewchorz"
+        android:text="@string/item41"
+        android:textSize="35dp"
+        android:textColor="#FFCC00"
+        android:layout_below="@+id/textViewofcheckh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item4"
+        android:id="@+id/textViewofcheckh"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view1" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="#66FFFF"
+        android:id="@+id/view2"
+        android:layout_below="@+id/textviewchorz"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxvh"
+        android:checked="false"
+        android:button="@xml/custom_check_box"
+        android:layout_below="@+id/view2"
+        android:layout_alignRight="@+id/view2"
+        android:layout_alignEnd="@+id/view2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewch"
+        android:text="@string/item31"
+        android:textSize="35dp"
+        android:textColor="#FFCC00"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewofcheckhorz" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item3"
+        android:id="@+id/textViewofcheckhorz"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view2"
+        android:layout_alignBottom="@+id/checkBoxh" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="#66FFFF"
+        android:id="@+id/view3"
+        android:layout_below="@+id/textviewch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
+    </ScrollView>

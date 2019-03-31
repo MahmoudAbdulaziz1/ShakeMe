@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="actionbar_tab_text_size">30sp</dimen>
+</resources>

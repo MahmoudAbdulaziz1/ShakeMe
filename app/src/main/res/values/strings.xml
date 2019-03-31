@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Shake Me</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="spinner">
+        <item>No Thing</item>
+        <item>Run installed app</item>
+        <item>Turn Screen on</item>
+        <item>Turn flashlight on/off</item>
+        <item>Turn 3G on/off</item>
+        <item>Turn screen rotation on/off</item>
+        <item>Turn Wifi on/off</item>
+        <item>Turn Bluetooth on/off</item>
+        <item>Turn Ringer Mode on/off</item>
+        <item>Go to home</item>
+        <item>Recent apps list</item>
+
+
+
+        </string-array>
+    <string name="item1">Add action</string>
+    <string name="item11">Click to set your actions</string>
+    <string name="item2">Service State</string>
+    <string name="item21">on/off service</string>
+    <string name="item3">Vibrate when shaken</string>
+    <string name="item31">feel vibrate when shaken</string>
+    <string name="item4">Active when Screen is off</string>
+    <string name="item41">make shake done if screen is off but it consume battery</string>
+    <string name="addAction">Add your actions</string>
+    <string name="addactiondes">Click to set your actions when phone is shaken</string>
+    <string name="select_app_button">SelectAPP</string>
+    <string name="sensor_senstivity">Sensor Sensitivity</string>
+    <string name="sensor_sensitvityd">click to edit sensor sensitivity</string>
+    <string name="reset">Reset Value</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+
+</resources>
